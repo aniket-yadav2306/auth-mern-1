@@ -31,7 +31,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "https://deploy-mern-app-1-api.vercel.app/products";
+      const url = "https://auth-mern-1-api-git-main-aniketyadav2306-gmailcoms-projects.vercel.app//products";
       const headers = {
         headers: {
           'Authorization': localStorage.getItem('token')
